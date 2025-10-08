@@ -90,6 +90,27 @@ graph TB
 
 ## 1️⃣ Phase PLAN : Spécifications exhaustives puis découpage modulaire
 
+### 0. Points d'entrée : Adapter PLAN selon vos inputs
+
+**Selon votre situation de départ, le workflow PLAN diffère.** Voici les scénarios courants :
+
+| Scénario                  | Input disponible           | Workflow PLAN                           | Détails                                                       |
+| ------------------------- | -------------------------- | --------------------------------------- | ------------------------------------------------------------- |
+| **1. Greenfield**         | Rien (projet from scratch) | Discovery → Specs → Découpage           | [Guide détaillé](input-plan-workflow.md#1-greenfield)         |
+| **2. JIRA/Linear**        | Tickets existants          | MCP → Analyse → Specs → Découpage       | [Guide détaillé](input-plan-workflow.md#2-jira-linear)        |
+| **3. Figma**              | Maquettes validées         | MCP Figma → Analyse → Specs → Découpage | [Guide détaillé](input-plan-workflow.md#3-figma)              |
+| **4. Cahier des charges** | Document PDF/MD            | Analyse CDC → Specs → Découpage         | [Guide détaillé](input-plan-workflow.md#4-cahier-des-charges) |
+| **5. API existante**      | OpenAPI/Swagger            | Analyse contrats → Extension specs      | [Guide détaillé](input-plan-workflow.md#5-api-existante)      |
+| **6. Codebase legacy**    | Code source                | `/init` ou analyse → Reverse specs      | [Guide détaillé](input-plan-workflow.md#6-codebase-legacy)    |
+| **7. Discovery pur**      | User research              | Interviews → Hypothèses → Specs         | [Guide détaillé](input-plan-workflow.md#7-discovery-pur)      |
+| **8. Backlog éparpillé**  | Notes, emails, tickets     | Consolidation → Priorisation → Specs    | [Guide détaillé](input-plan-workflow.md#8-backlog-eparpille)  |
+
+💡 **Combinaisons possibles** : Figma + JIRA, CDC + Figma, API + Tickets, etc. → Voir [workflows combinés](input-plan-workflow.md#combinaisons).
+
+📖 **Guide complet des workflows** : [input-plan-workflow.md](input-plan-workflow.md)
+
+---
+
 ### 1.1. Spécifications techniques complètes
 
 **Objectif** : Créer des spécifications détaillées et user-centric qui serviront de référence tout au long du projet.
@@ -566,6 +587,7 @@ Pour chaque tâche du découpage (phase 1.2), tracker dans un fichier `.md` :
 
 ### Fichiers d'exemples détaillés
 
+- [Points d'entrée PLAN : Workflows selon vos inputs](input-plan-workflow.md)
 - [Phase PLAN : Spécifications et découpage](examples/plan-phase.md)
 - [Phase CODING : API-First + TDD](examples/coding-phase.md)
 - [Phase TEST : Refactor + PBT + Mutation](examples/test-phase.md)
