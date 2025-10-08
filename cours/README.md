@@ -73,7 +73,7 @@ Les chiffres et statistiques cités proviennent de sources vérifiées :
 - Stanford Digital Economy Lab (août 2025)
 - Bureau of Labor Statistics (USA)
 
-**Voir** : [`../data Gen AI in Code.md`](../data%20Gen%20AI%20in%20Code.md) pour toutes les sources
+**Voir** : [`ressources/data.md`](ressources/data.md) pour toutes les sources
 
 ---
 
@@ -82,4 +82,4 @@ Les chiffres et statistiques cités proviennent de sources vérifiées :
 - **Programme complet** : [PROGRAMME-FORMATION.md](../PROGRAMME-FORMATION.md)
 - **Exercices pratiques** : [../exercices/](../exercices/)
 - **Charte d'utilisation** : [../charte/guidelines-vibe-coding.md](../charte/guidelines-vibe-coding.md)
-- **Méthodologie PACT-R** : [../README.md](../README.md)
+- **Méthodologie PACT-R** : [../methodes/pact-r.md](../methodes/pact-r.md)

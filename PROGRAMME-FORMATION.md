@@ -3,7 +3,7 @@
 ## 🎯 Informations générales
 
 **Durée** : 7 heures  
-**Public** : 9 développeurs Immodvisor (PHP/Symfony/API Platform)  
+**Public** : développeurs (PHP/Symfony/API Platform)  
 **Niveau** : Débutant à intermédiaire en IA générative  
 **Format** : Présentiel avec exercices pratiques semi-ouverts  
 **Prérequis techniques** :
@@ -43,7 +43,7 @@
 
 **Contenu** :
 
-- Historique du vibe coding (de GitHub Copilot à Claude Code/Cursor)
+- Historique du ai pair programming (vibe coding) (de GitHub Copilot à Claude Code/Cursor)
 - Chiffres clés vérifiés (adoption, productivité, emploi)
 - Tendances du métier de développeur
 - Mythes vs réalité (fiabilité, sécurité, impact environnemental)
@@ -91,12 +91,15 @@
 
 **Contenu** :
 
-- Introduction à PACT-R (Plan, Assert, Code, Test, Review)
+- **Origine** : Plan-Act-Review-Repeat (Andrej Karpathy, 2025)
+- **PACT-R** : Extension avec Assert et Test (Plan, Assert, Code, Test, Review)
 - Philosophie : specs d'abord, puis TDD avec IA
 - API-First + Test-Driven Development
 - Workflows selon inputs (Greenfield, JIRA, Figma, etc.)
 - Garde-fous anti-over-engineering (YAGNI, Monolith-First)
 - Démonstration courte avec Claude Code
+
+**Ressources** : [`ressources/historique.md`](cours/ressources/historique.md) pour l'historique complet
 
 **Format** : Présentation + démo live (5min)
 
@@ -273,6 +276,12 @@ Permettre à l'IA de rechercher des avis similaires, analyser des tendances, ou 
 ---
 
 ## 📚 Supports et ressources
+
+### Documentation de référence (dossier `cours/ressources/`)
+
+1. [`historique.md`](cours/ressources/historique.md) - Origine du vibe coding, Plan-Act-Review-Repeat, personnalités clés
+2. [`data.md`](cours/ressources/data.md) - Chiffres clés vérifiés avec sources et URLs
+3. [`constat.md`](cours/ressources/constat.md) - Analyse du marché et tendances
 
 ### Contenus théoriques (dossier `cours/`)
 

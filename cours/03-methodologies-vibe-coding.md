@@ -1,13 +1,13 @@
 # Méthodologies de vibe coding
 
-**Durée** : 30 minutes  
-**Format** : Présentation + démo live (5min)
+**Format** : Présentation + démo live
 
 ---
 
 ## 🎯 Objectifs
 
-- Comprendre la méthodologie PACT-R
+- Comprendre l'origine de PACT-R depuis Plan-Act-Review-Repeat
+- Maîtriser la méthodologie PACT-R
 - Savoir quand et comment l'appliquer
 - Découvrir les workflows selon vos inputs
 - Maîtriser les garde-fous anti-over-engineering
@@ -26,6 +26,24 @@ PLAN → ASSERT → CODE → TEST → REVIEW
   └────────────────────────────────┘
          (Itérations rapides)
 ```
+
+### Origine : Plan-Act-Review-Repeat
+
+**PACT-R** s'inspire et étend la méthodologie **Plan-Act-Review-Repeat** popularisée par **Andrej Karpathy** (cofondateur d'OpenAI) en février 2025. Cette approche cyclique originale comprenait 4 phases :
+
+1. **Plan** : Définir l'intention en langage naturel
+2. **Act** : L'IA génère le code
+3. **Review** : Tester et valider ce qui a été produit
+4. **Repeat** : Itérer sans nécessairement retoucher le code manuellement
+
+([Level96](https://www.level96.co/blog/vibe-coding-definition), [Ada Tech School](https://blog.adatechschool.fr/vibe-coding-guide-complet-2025/))
+
+**PACT-R enrichit cette approche** en y ajoutant :
+
+- Meilleure plannification : Création de specifications exhaustives
+- La phase **ASSERT** (tests d'abord, TDD strict) pour garantir la fiabilité
+
+> 📖 **Historique complet** : Voir [`ressources/historique.md`](../ressources/historique.md) qui détaille Plan-Act-Review-Repeat, son origine et les personnalités associées au vibe coding
 
 ### Philosophie clé
 
@@ -52,7 +70,7 @@ PLAN → ASSERT → CODE → TEST → REVIEW
 
 **Avec specs exhaustives** :
 
-- ✅ L'IA comprend exactement ce qu'il faut faire
+- ✅ L'IA comprend mieux ce qu'il faut faire
 - ✅ Code cohérent dès la première génération
 - ✅ Tests faciles à écrire
 - ✅ Architecture solide
@@ -169,7 +187,7 @@ PLAN → ASSERT → CODE → TEST → REVIEW
 | **Code legacy**        | Reverse engineering → Specs | 3-4j   | Documenter existant, spécifier changements   |
 | **Rien (greenfield)**  | Discovery → Specs           | 3-5j   | User research, maquettes, specs              |
 
-**📖 Détails complets** : Voir [`input-plan-workflow.md`](../input-plan-workflow.md)
+**📖 Détails complets** : Voir [`input-plan-workflow.md`](../methodes/input-plan-workflow.md)
 
 ---
 
@@ -581,9 +599,23 @@ Génère d'abord les tests PHPUnit, puis l'implémentation minimale.
 
 ## 📚 Ressources
 
-- **Méthodologie complète** : [README.md](../README.md)
-- **Workflows PLAN détaillés** : [input-plan-workflow.md](../input-plan-workflow.md)
-- **Exemples** : [`examples/plan-phase.md`](../examples/plan-phase.md), [`coding-phase.md`](../examples/coding-phase.md), etc.
+### Documentation interne
+
+- **Historique du vibe coding** : [`ressources/historique.md`](ressources/historique.md) - Plan-Act-Review-Repeat et origines de PACT-R
+- **Chiffres et sources vérifiées** : [`ressources/data.md`](ressources/data.md) - Sources avec URLs sur l'adoption et la productivité
+- **Constat et contexte** : [`ressources/constat.md`](ressources/constat.md) - Analyse du marché
+
+### Méthodologies et exemples
+
+- **Méthodologie complète** : [pact-r.md](../methodes/pact-r.md)
+- **Workflows PLAN détaillés** : [input-plan-workflow.md](../methodes/input-plan-workflow.md)
+- **Exemples** : [`plan-phase.md`](../methodes/examples/plan-phase.md), [`coding-phase.md`](../methodes/examples/coding-phase.md), etc.
+
+### Liens externes clés
+
+- [Level96 - Vibe Coding Definition](https://www.level96.co/blog/vibe-coding-definition)
+- [Ada Tech School - Guide complet 2025](https://blog.adatechschool.fr/vibe-coding-guide-complet-2025/)
+- [Cloudflare - AI Vibe Coding](https://www.cloudflare.com/fr-fr/learning/ai/ai-vibe-coding/)
 
 ---
 

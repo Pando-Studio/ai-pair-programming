@@ -1,6 +1,5 @@
 # Introduction : Vibe Coding & IA Générative pour le développement
 
-**Durée** : 20 minutes  
 **Format** : Présentation interactive
 
 ---
@@ -15,6 +14,8 @@
 ---
 
 ## 📜 Historique du Vibe Coding
+
+> 📖 **Pour un historique détaillé** : Voir [`ressources/historique.md`](ressources/historique.md) qui détaille l'origine du vibe coding, la méthodologie Plan-Act-Review-Repeat d'Andrej Karpathy, et les travaux d'Anthropic.
 
 ### Ligne du temps
 
@@ -47,12 +48,12 @@
 ### Qu'est-ce que le "Vibe Coding" ?
 
 **Définition** :  
+AI Pair Programming
 Développer en décrivant l'**intention** plutôt qu'en écrivant ligne par ligne. L'IA génère le code, le développeur valide, guide, et raffine.
 
-**Analogie** :
+**Origine** : Le terme a été inventé et popularisé en février 2025 par **Andrej Karpathy** (cofondateur d'OpenAI, ancien responsable IA chez Tesla) à travers un post viral sur X (ex-Twitter). Il a formalisé la méthodologie **Plan-Act-Review-Repeat** comme approche cyclique pour le développement assisté par IA. ([SoftyFlow](https://www.softyflow.io/vibe-coding/), [O'clock](https://oclock.io/le-vibe-coding-cest-quoi))
 
-- **Avant** : Peindre pixel par pixel (écriture manuelle)
-- **Maintenant** : Décrire la scène, l'IA peint, le développeur retouche
+> 📖 **Détails historiques** : Voir [`ressources/historique.md`](ressources/historique.md)
 
 **Caractéristiques** :
 
@@ -63,9 +64,9 @@ Développer en décrivant l'**intention** plutôt qu'en écrivant ligne par lign
 
 ---
 
-## 📊 Chiffres clés vérifiés
+## 📊 Chiffres clés
 
-### Adoption massive
+### Adoption massive et récente
 
 | Métrique                | Chiffre                                     | Source                | Année     |
 | ----------------------- | ------------------------------------------- | --------------------- | --------- |
@@ -76,7 +77,7 @@ Développer en décrivant l'**intention** plutôt qu'en écrivant ligne par lign
 | **Robinhood**           | **~50%** du nouveau code généré par IA      | CEO Robinhood         | 2025      |
 | **YC Startups**         | **25%** avec **~95%** de code généré par IA | Jared Friedman        | 2025      |
 
-**📖 Sources complètes** : Voir [`data Gen AI in Code.md`](../data%20Gen%20AI%20in%20Code.md)
+**📖 Sources complètes avec URLs** : Voir [`ressources/data.md`](ressources/data.md)
 
 ---
 
@@ -271,6 +272,12 @@ Sans ces garde-fous, l'IA **ralentit et fragilise**.
 ---
 
 ## 📚 Ressources pour aller plus loin
+
+### Documentation interne
+
+- **Chiffres et sources vérifiées** : [`ressources/data.md`](ressources/data.md) - Toutes les sources avec URLs
+- **Historique du vibe coding** : [`ressources/historique.md`](ressources/historique.md) - Origines, Plan-Act-Review-Repeat, personnalités clés
+- **Constat et contexte** : [`ressources/constat.md`](ressources/constat.md) - Analyse du marché et tendances
 
 ### Chiffres et études
 

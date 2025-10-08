@@ -1,6 +1,5 @@
 # Résultats du sondage interne Immodvisor
 
-**Durée** : 15 minutes  
 **Format** : Présentation des insights clés
 
 ---
@@ -8,23 +7,14 @@
 ## 🎯 Contexte
 
 **Sondage réalisé** : 7-8 octobre 2025  
-**Participants** : 7 développeurs sur 9 (taux de réponse : 78%)  
+**Participants** : 7 développeurs  
 **Objectif** : Évaluer le niveau de maturité de l'équipe sur l'IA générative et identifier les besoins spécifiques
 
 ---
 
 ## 👥 Profil de l'équipe
 
-### Expérience et rôles
-
-| Poste              | Nombre | Expérience moyenne  |
-| ------------------ | ------ | ------------------- |
-| **Développeur**    | 4      | 9,25 ans (5-17 ans) |
-| **Lead Developer** | 1      | 15 ans              |
-| **CTO**            | 1      | 17 ans              |
-| **Product Owner**  | 1      | 5 ans               |
-
-**📊 Insight** : Équipe **très expérimentée** (moyenne 11,4 ans) → Attentes élevées sur qualité et pragmatisme
+**📊 Insight** : Équipe **expérimentée** (moyenne 11,4 ans) → Attentes élevées sur qualité et pragmatisme
 
 ---
 
@@ -88,13 +78,13 @@
 
 **Question : "Utilisez-vous régulièrement de l'IAG pour vous aider à coder ?"**
 
-- ✅ **Oui** : 1/7 (14%) - Le PO !
+- ✅ **Oui** : 1/7 (14%)
 - ❌ **Non** : 6/7 (86%)
 
 **Comment l'utilisent-ils ?** (pour le 1 qui l'utilise)
 
 - "Décrire une intention métier puis laisser l'IA proposer une implémentation"
-- "Questions techniques / à la place de StackOverflow" (CTO en test)
+- "Questions techniques / à la place de StackOverflow"
 
 **📊 Insight MAJEUR** : **86% n'utilisent PAS l'IA pour coder** → Énorme marge de progression
 
@@ -175,35 +165,35 @@
 
 **Génération automatique de tests** :
 
-> "Génération auto de test des APIs à partir de la doc OpenAPI" (CTO)
+> "Génération auto de test des APIs à partir de la doc OpenAPI"
 
 **Agents de qualité** :
 
-> "Agent de code review sur les pre hook git avant de pouvoir merge une branch" (CTO)
+> "Agent de code review sur les pre hook git avant de pouvoir merge une branch"
 
 **MCP pour clients** :
 
-> "Mise en place d'un serveur MCP pour nos clients" (CTO)
+> "Mise en place d'un serveur MCP pour nos clients"
 
 **RAG sur règles fonctionnelles** :
 
-> "Un agent qui va répondre aux règles fonctionnelles qu'il a pu étudier. Exemple : quel est le déclencheur des envois des emails d'avis publiés ?" (PO)
+> "Un agent qui va répondre aux règles fonctionnelles qu'il a pu étudier. Exemple : quel est le déclencheur des envois des emails d'avis publiés ?"
 
 **Analyse UX automatique** :
 
-> "De l'aide pour améliorer notre interface espace client (UX), qu'une IA puisse accéder/naviguer et proposer des axes d'amélioration UX" (PO)
+> "De l'aide pour améliorer notre interface espace client (UX), qu'une IA puisse accéder/naviguer et proposer des axes d'amélioration UX"
 
 **Génération de release notes** :
 
-> "L'IA pourrait générer des notes de version Confluence automatiquement sur une base de tickets JIRA" (PO)
+> "L'IA pourrait générer des notes de version Confluence automatiquement sur une base de tickets JIRA"
 
 **Tests unitaires automatiques** :
 
-> "Création de tests unitaires automatiques via agent. Vérifier la qualité de code une fois poussé sur Gitlab." (Dev)
+> "Création de tests unitaires automatiques via agent. Vérifier la qualité de code une fois poussé sur Gitlab."
 
 **Refactorisation** :
 
-> "Analyse du respect de bonnes pratiques et propositions de refactorisation (séparation du code métier de la logique)" (Lead Dev)
+> "Analyse du respect de bonnes pratiques et propositions de refactorisation (séparation du code métier de la logique)"
 
 **📊 Insight** : Demandes **très concrètes et opérationnelles** → Équipe sait ce qu'elle veut !
 
@@ -369,6 +359,16 @@
 > — PO sur la gouvernance
 
 **📊 Insight** : Équipe **consciente du potentiel** mais **prudente** sur coûts, gouvernance et fiabilité
+
+---
+
+## 📚 Ressources
+
+### Documentation interne
+
+- **Chiffres et sources vérifiées** : [`ressources/data.md`](ressources/data.md) - Sources avec URLs pour les chiffres d'adoption
+- **Historique du vibe coding** : [`ressources/historique.md`](ressources/historique.md) - Origines et personnalités clés
+- **Constat et contexte** : [`ressources/constat.md`](ressources/constat.md) - Analyse du marché et tendances
 
 ---
 

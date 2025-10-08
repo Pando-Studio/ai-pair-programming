@@ -1,6 +1,5 @@
 # Concepts fondamentaux : LLM, MCP, RAG
 
-**Durée** : 10 minutes (présentation synthétique)  
 **Format** : Présentation rapide, approfondissement durant les exercices
 
 ---
