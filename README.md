@@ -2,6 +2,20 @@
 
 > **Plan → Assert (tests) → Code → Test → Review**
 
+---
+
+## 🎓 Formation AI Pair Programming
+
+**Vous cherchez le contenu de la formation de 7h sur le vibe coding ?**
+
+👉 **[PROGRAMME-FORMATION.md](PROGRAMME-FORMATION.md)** - Programme complet  
+👉 **[FORMATION-RESUME.md](FORMATION-RESUME.md)** - Résumé exécutif  
+👉 **[cours/](cours/)** - Contenus théoriques (4 modules)  
+👉 **[exercices/](exercices/)** - Exercices pratiques (API PACT-R + MCP RAG)  
+👉 **[charte/](charte/)** - Charte d'utilisation IA
+
+---
+
 ## ⚠️ Disclaimer
 
 **PACT-R est un modèle théorique qui doit être adapté à votre contexte.**
