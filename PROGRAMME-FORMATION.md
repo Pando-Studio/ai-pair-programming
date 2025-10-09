@@ -268,8 +268,8 @@ Permettre à l'IA de rechercher des avis similaires, analyser des tendances, ou 
 - Ressources pour aller plus loin
 - Plan d'adoption progressif chez Immodvisor :
   - Semaine 1 : Tester sur petites tâches
-  - Semaine 2-4 : Premiers projets PACT-R
-  - Mois 2+ : Optimisation continue
+  - Semaine 2-4 :
+  - Mois 2+ :
 
 **Q&A finale**
 
