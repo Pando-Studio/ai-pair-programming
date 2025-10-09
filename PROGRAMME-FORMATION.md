@@ -3,7 +3,7 @@
 ## 🎯 Informations générales
 
 **Durée** : 7 heures  
-**Public** : développeurs (PHP/Symfony/API Platform)  
+**Public** : développeurs  
 **Niveau** : Débutant à intermédiaire en IA générative  
 **Format** : Présentiel avec exercices pratiques semi-ouverts  
 **Prérequis techniques** :
@@ -20,7 +20,7 @@
 À l'issue de cette formation, les participants seront capables de :
 
 1. **Comprendre** les concepts fondamentaux de l'IA générative pour le code (LLM, tokens, prompting, MCP, RAG)
-2. **Appliquer** la méthodologie PACT-R pour développer avec l'IA
+2. **Appliquer** méthodologie de ai pair programming, pour développer avec l'IA
 3. **Créer** une API complète avec tests en utilisant l'assistance IA
 4. **Construire** un serveur MCP connecté à une base vectorielle
 5. **Définir** une charte d'utilisation et des guidelines adaptées à leur contexte
@@ -29,7 +29,7 @@
 
 ## 🕐 Déroulé détaillé (7h)
 
-### **Session 1 : Contexte & Fondamentaux (1h) - 9h00-10h00**
+### \*\*Session 1 : Contexte & Fondamentaux
 
 #### 9h00-9h15 : Accueil & Tour de table (15min)
 
@@ -56,7 +56,7 @@
 
 **Contenu** :
 
-- Analyse des réponses des 7 développeurs Immodvisor
+- Analyse des réponses
 - Niveau de maturité de l'équipe
 - Besoins et attentes spécifiques
 - Préoccupations principales (qualité, sécurité, complexité)
